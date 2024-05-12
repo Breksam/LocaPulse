@@ -1,0 +1,16 @@
+- Make sure that you install PHP, Composer, Xampp and Visual Studio Code
+
+- Database Name is the_lost
+
+- open terminal and run:
+  php artisan migrate
+
+- then run:
+  php artisan db:seed
+
+- API Links:
+  AllFoundedItems: http://127.0.0.1:8000/api/all-found-things
+  AllMissingItems: http://127.0.0.1:8000/api/all-lost-things 
+
+- After handel API from the AI model:
+  change API Link in "Xampp\htdocs\the_lost\app\Http\Controllers\AppController.php" at "acconunt() function"
